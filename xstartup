@@ -3,4 +3,7 @@
 unset SESSION_MANAGER
 unset DBUS_SESSION_BUS_ADDRESS
 OS=`uname -s`
-exec dbus-launch --exit-with-session mate-session &
+# 
+# exec dbus-launch --exit-with-session mate-session &
+exec icewm-session &
+
